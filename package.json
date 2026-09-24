@@ -1,0 +1,21 @@
+{
+  "name": "flagline",
+  "version": "0.1.0",
+  "description": "A local-first feature flag store with a CLI",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/flags.js",
+  "types": "./dist/flags.d.ts",
+  "bin": {
+    "flagline": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
